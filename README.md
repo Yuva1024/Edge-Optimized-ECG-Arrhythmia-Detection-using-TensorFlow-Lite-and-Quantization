@@ -41,11 +41,11 @@ python train.py
 
 This will:
 
-  -Load the ECG dataset
+  - Load the ECG dataset
 
-  -Train a lightweight neural network classifier
+  - Train a lightweight neural network classifier
 
-  -Save the model in TensorFlow SavedModel format
+  - Save the model in TensorFlow SavedModel format
 
 Saved model output:
 
@@ -83,11 +83,11 @@ python run_interface.py
 ```
 This will:
 
-  -Load the quantized TFLite model
+  - Load the quantized TFLite model
 
-  -Run inference on a sample ECG heartbeat
+  - Run inference on a sample ECG heartbeat
 
-  -Print predicted vs actual label
+  - Print predicted vs actual label
 
 Example output:
 
@@ -104,9 +104,9 @@ python benchmark.py
 ```
 This compares:
 
-  -Normal vs Quantized model size
+  - Normal vs Quantized model size
 
-  -Average inference latency
+  - Average inference latency
 
 Example output:
 
@@ -124,13 +124,14 @@ Quantized Model:
 
 ## Key Learning
 
-  -Model export using SavedModel
+  - Model export using SavedModel
 
-  -TFLite conversion pipeline
+  - TFLite conversion pipeline
 
-  -INT8 quantization trade-offs
+  - INT8 quantization trade-offs
 
-  -Efficient edge inference execution
+  - Efficient edge inference execution
+
 
 
 
