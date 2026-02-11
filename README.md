@@ -64,9 +64,9 @@ python convert_to_tflite.py
 
 This generates:
 
-  -ecg_model.tflite (standard model)
+  - ecg_model.tflite (standard model)
 
-  -ecg_model_quant.tflite (INT8 quantized model)
+  - ecg_model_quant.tflite (INT8 quantized model)
 
 Output files:
 
@@ -131,6 +131,7 @@ Quantized Model:
   - INT8 quantization trade-offs
 
   - Efficient edge inference execution
+
 
 
 
